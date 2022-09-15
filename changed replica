@@ -1,0 +1,15 @@
+warning: LF will be replaced by CRLF in result-deployment.yaml.
+The file will have its original line endings in your working directory
+[1mdiff --git a/result-deployment.yaml b/result-deployment.yaml[m
+[1mindex b4db7a4..c1c8106 100644[m
+[1m--- a/result-deployment.yaml[m
+[1m+++ b/result-deployment.yaml[m
+[36m@@ -4,7 +4,7 @@[m [mmetadata:[m
+   name: result[m
+   namespace: voting[m
+ spec:[m
+[31m-  replicas: 1[m
+[32m+[m[32m  replicas: 2[m
+   selector: [m
+     matchLabels:[m
+       app: result[m
